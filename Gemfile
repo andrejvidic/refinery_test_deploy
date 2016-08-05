@@ -60,3 +60,7 @@ gem "refinerycms-blog", git: "https://github.com/refinery/refinerycms-blog"
 gem 'refinerycms-inquiries', '~> 3.0.0'
 # gem 'refinerycms-search', ['~> 3.0', '>= 3.0.0']
 gem 'refinerycms-images', '~> 3.0', '>= 3.0.0'
+
+group :production do
+  gem 'pg'
+end
