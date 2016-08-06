@@ -2,7 +2,7 @@
 lock '3.6.0'
 
 set :application, 'parici.com.au'
-set :repo_url, 'https://github.com/drej2k/refinery_test_deploy.git'
+set :repo_url, 'git@github.com:drej2k/refinery_test_deploy.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
