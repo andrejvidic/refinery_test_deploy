@@ -25,7 +25,7 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  databse: parici_production
+  database: parici_production
   template: template0
   host: localhost
   username: parici
