@@ -113,6 +113,7 @@ GEM
     globalize (5.0.1)
       activemodel (>= 4.2.0, < 4.3)
       activerecord (>= 4.2.0, < 4.3)
+    highline (1.7.8)
     i18n (0.7.0)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -295,6 +296,7 @@ DEPENDENCIES
   capistrano-passenger
   capistrano-rails
   coffee-rails (~> 4.1.0)
+  highline
   jbuilder (~> 2.0)
   jquery-rails
   pg

@@ -47,6 +47,7 @@ group :development do
   #Capistrano
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
+  gem 'highline'
 end
 
 # Refinery CMS
